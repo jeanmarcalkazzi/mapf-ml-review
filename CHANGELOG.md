@@ -21,30 +21,25 @@ references.
 | Enhancing Prioritized Planning (OQ 5,6) | 2 |
 | Enhancing other MAPF solvers (OQ 5,6) | 12 |
 | Learning-based Policies — Decentralized (OQ 7–12) | 31 |
-| Learning-based Policies — Centralized (OQ 7–12) *(new)* | 7 |
+| Learning-based Policies — Centralized (OQ 7–12) *(new)* | 9 |
 | Travel and Action Time Modeling (OQ 13) | 3 |
 | Failure Prediction (OQ 14) | 1 |
 | Simulation Environments and Testbeds | 4 |
-| LLMs & Foundation Models for MAPF *(new)* | 2 |
 | Interpretable ML for MAPF *(new)* | 1 |
 | Surveys & Benchmarks *(new)* | 2 |
 
 By publication year: 2023 × 5, 2024 × 25, 2025 × 28, 2026 × 22.
 
 ### New sections
-- **Learning-based Policies** (Planning) — the former "Learning Decentralized
+- **Learning-based Policies** (Planning): the former "Learning Decentralized
   Policies" section was renamed and split into **Decentralized** and
-  **Centralized** subsections (the latter for centralized learned planners such
-  as RAILGUN). Diffusion-based multi-robot motion planners were organized by
-  *stage* into this branch rather than as a technique section, so "Representation
-  for Planning" again holds only representation-learning work (CTRMs, roadmaps).
+  **Centralized** subsections.
 - **Environment Generation for MAPF Algorithm Evaluation** (under Representation)
   Environment generation aimed at evaluating/benchmarking solvers.
   This would include research on what it means for an instance to be hard for a solver.
-- **LLMs & Foundation Models for MAPF**: emerging direction.
 - **Interpretable ML for MAPF**: explainability/policy distillation.
 - **Surveys & Benchmarks**: learning-relevant surveys and evaluation studies.
-- **Failure Prediction (OQ 14)** is now populated (was nearly placeholder)
+- **Failure Prediction (OQ 14)** is now populated (was nearly placeholder).
 - **Simulation Environments** was renamed **Simulation Environments and Testbeds**
   considering that some papers like SMART are meant for better benchmarking.
 
