@@ -3,32 +3,30 @@
 All notable additions to this living survey are documented here. Versions are
 date-based (`YYYY.MM`).
 
-## 2026.06 — 2026-06-27
+## 2026.06
 
 First catch-up release since the original survey 2024.04.
-Adds **80 new papers** (81 table rows; one is cross-listed) published
-between ~end-2023 and mid-2026, bringing the database from 39 to **120**
-references.
+Adds **79 new papers** published between 2024 and mid-2026,
+bringing the database from 39 to **118** references.
 
 ### Added
 
 | Section | # Additions |
 |---------|:--:|
+| Representation for Planning (OQ 1) | 0 |
 | Environment Optimization (OQ 2) | 8 |
-| Environment Generation for MAPF Algorithm Evaluation *(new)* | 2 |
+| Environment Generation for MAPF Algorithm Evaluation *(new)* | 1 |
 | Representation for Selection (OQ 3,4) | 3 |
 | Enhancing Conflict-Based Search (OQ 5,6) | 3 |
 | Enhancing Prioritized Planning (OQ 5,6) | 2 |
-| Enhancing other MAPF solvers (OQ 5,6) | 12 |
-| Learning-based Policies — Decentralized (OQ 7–12) | 31 |
-| Learning-based Policies — Centralized (OQ 7–12) *(new)* | 9 |
+| Enhancing other MAPF solvers (OQ 5,6) | 10 |
+| Learning-based Policies - Decentralized (OQ 7–12) | 32 |
+| Learning-based Policies - Centralized (OQ 7–12) *(new)* | 8 |
 | Travel and Action Time Modeling (OQ 13) | 3 |
 | Failure Prediction (OQ 14) | 1 |
-| Simulation Environments and Testbeds | 4 |
+| Simulation Environments and Testbeds *(renamed)* | 4 |
 | Interpretable ML for MAPF *(new)* | 1 |
-| Surveys & Benchmarks *(new)* | 2 |
-
-By publication year: 2023 × 5, 2024 × 25, 2025 × 28, 2026 × 22.
+| Surveys & Benchmarks *(new)* | 3 |
 
 ### New sections
 - **Learning-based Policies** (Planning): the former "Learning Decentralized
@@ -47,8 +45,7 @@ By publication year: 2023 × 5, 2024 × 25, 2025 × 28, 2026 × 22.
 - **Learn to Follow**: title corrected to the published AAAI 2024 form
   ("...Decentralized Lifelong ... via Planning and Learning") in README and bib.
 - **POGEMA**: bib entry replaced (was the 2022 arXiv "grid environment"
-  version) with the ICLR 2025 "A Benchmark Platform for Cooperative MAPF" paper,
-  matching the README row.
+  version) with the ICLR 2025 "A Benchmark Platform for Cooperative MAPF" paper.
 - Pre-existing `references.bib` syntax errors (missing comma after `Kita2023`;
   stray braces in venue macros).
 - **From Discrete Plans to Real-World Execution** (REMAP): entry initially
@@ -60,29 +57,7 @@ By publication year: 2023 × 5, 2024 × 25, 2025 × 28, 2026 × 22.
   repointed to the correct JAAMAS paper.
 - **Neural Neighborhood Search for MAPF** (ICLR 2024, Yan & Wu): back-filled
   the missing `references.bib` entry for this pre-existing README row.
-
-### Highlights
-- **MAPF-GPT** (AAAI 2025): a transformer foundation model trained on ~1B
-  LaCAM observation–action pairs, reported to generalize zero-shot.
-  Large-scale imitation learning for decentralized MAPF.
-- **Deploying Ten Thousand Robots / SILLM** (ICRA 2025): imitation-learning
-  lifelong MAPF scaling to 10,000 agents.
-- **Guidance Graph Optimization line**: GGO (IJCAI 2024) -> Online GGO
-  (AAAI 2025) -> Mixed-edge GGO (2026): a new sub-area within
-  environment optimization.
-- **Diffusion models for multi-robot motion planning**: MMD (ICLR 2025),
-  SMD (ICML 2025), Discrete-Guided Diffusion (AAAI 2026), and others.
-- **Failure Prediction (OQ 14)** receives its first entry ("Should I Replan?",
-  learned replanning-timing), an open question that was previously unaddressed.
-
-### Trends (2024–2026, from this update's set)
-- Large-scale imitation learning is becoming more of interest for
-  decentralized policies (MAPF-GPT, SILLM, CS-PIBT).
-- Hybrid ML + classical search is the most active area
-  (LNS2+RL, BALANCE, ADDRESS, DiffLNS, HMAGAT, LaGAT, etc..).
-- Generative models (diffusion) and LLMs/foundation models appear as less frequent
-  but seemingly fast-growing directions.
-
+- Replaced all preprints with their respective publication venues where applicable.
 
 ## 2024.04
 
