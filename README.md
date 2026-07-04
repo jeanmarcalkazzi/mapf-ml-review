@@ -18,14 +18,14 @@ A living survey tracking Machine Learning approaches to solving the MAPF Problem
 ### Representation for Planning - OQ 1
 
 | Paper | Venue | Year | Links |
-|-------|-------|------|:--:|
+|:------|:------|:-----|:-----|
 | CTRMs: Learning to Construct Cooperative Timed Roadmaps for Multi-Agent Path Planning in Continuous Spaces | AAMAS | 2022 | [paper](https://www.semanticscholar.org/paper/e26cdb91017be4fd83d98ee0a75ce8dcb797464a) • [code](https://github.com/omron-sinicx/ctrm/) • [project](https://omron-sinicx.github.io/ctrm/) |
 | Avoidance Critical Probabilistic Roadmaps for Motion Planning in Dynamic Environments | ICRA | 2021 | [paper](https://www.semanticscholar.org/paper/242930b85d5323d3e74395073da44649984c2369) |
 
 ### Environment Optimization - OQ 2
 
 | Paper | Venue | Year | Links |
-|-------|-------|------|:--:|
+|:------|:------|:-----|:-----|
 | Scaling Multi-Agent Environment Co-Design with Diffusion Models | ICML | 2026 | [paper](https://www.semanticscholar.org/paper/79c34b99e4208e92b2117ae4fa5616b13a33796e) • [code](https://github.com/MarkHaoxiang/diffusion-co-design) |
 | Optimization of Edge Directions and Weights for Mixed Guidance Graphs in Lifelong Multi-Agent Path Finding | arXiv | 2026 | [paper](https://www.semanticscholar.org/paper/109f0005f70874d0537c4c602c4ca8caf1ea323a) |
 | Differentiable Environment-Trajectory Co-Optimization for Safe Multi-Agent Navigation | arXiv | 2026 | [paper](https://www.semanticscholar.org/paper/e80a12ebeb05e55d22b628318ebcdd1d1c0afb0b) |
@@ -42,13 +42,13 @@ A living survey tracking Machine Learning approaches to solving the MAPF Problem
 ### Environment Generation for MAPF Algorithm Evaluation
 
 | Paper | Venue | Year | Links |
-|-------|-------|------|:--:|
+|:------|:------|:-----|:-----|
 | QD-MAPPER: A Quality Diversity Framework to Automatically Evaluate Multi-Agent Path Finding Algorithms in Diverse Maps | AAMAS | 2026 | [paper](https://www.semanticscholar.org/paper/c246f450b34468dd394801b8e4830e8136972ec6) • [code](https://github.com/AirTClick/QD-MAPPER) • [project](https://airtclick.github.io/qdmapper) |
 
 ### Representation for Selection OQ 3,4
 
 | Paper | Venue | Year | Links |
-|-------|-------|------|:--:|
+|:------|:------|:-----|:-----|
 | Anytime Automatic Algorithm Selection for the Multi-Agent Path Finding Problem | IEEE Access | 2024 | [paper](https://www.semanticscholar.org/paper/4ba64e940721a86e7fa6cba25b0b231bf099a0ca) |
 | No Panacea in Planning: Algorithm Selection for Suboptimal Multi-Agent Path Finding | arXiv | 2024 | [paper](https://www.semanticscholar.org/paper/ec5d5af09606491e2c7226b007d23d92b5ca3d32) |
 | Algorithm Selection for Optimal Multi-Agent Path Finding via Graph Embedding | arXiv | 2024 | [paper](https://www.semanticscholar.org/paper/d44e194e273d35e22991f773218ec857009cf59a) |
@@ -64,7 +64,7 @@ A living survey tracking Machine Learning approaches to solving the MAPF Problem
 #### Enhancing Conflict-Based Search
 
 | Paper | Venue | Year | Links |
-|-------|-------|------|:--:|
+|:------|:------|:-----|:-----|
 | Multi-Agent Path Finding Among Dynamic Uncontrollable Agents with Statistical Safety Guarantees | arXiv | 2025 | [paper](https://www.semanticscholar.org/paper/ca18fb7a8837c0e0bd26a93291db2d4b4c584992) |
 | Proactive Conflict Area Prediction for Boosting Search-Based Multi-Agent Pathfinding | IROS | 2025 | [paper](https://www.semanticscholar.org/paper/6bdf45927dd59114a3579d970910317a808864fe) |
 | Conflict Area Prediction for Boosting Search-Based Multi-Agent Pathfinding Algorithms | ICRA | 2024 | [paper](https://www.semanticscholar.org/paper/ebb77e4aa25f921e50f4b9dbcacc8dc9f6f35eaa) |
@@ -75,7 +75,7 @@ A living survey tracking Machine Learning approaches to solving the MAPF Problem
 #### Enhancing Prioritized Planning
 
 | Paper | Venue | Year | Links |
-|-------|-------|------|:--:|
+|:------|:------|:-----|:-----|
 | Learning-guided Prioritized Planning for Lifelong Multi-Agent Path Finding in Warehouse Automation | JAIR | 2026 | [paper](https://www.semanticscholar.org/paper/deda1d00d22a61b52506de09985d29a0dff62abd) • [code](https://github.com/MikeZheng777/RL-RH-PP) |
 | Attention-based Priority Learning for Limited Time Multi-Agent Path Finding | AAMAS | 2024 | [paper](https://www.semanticscholar.org/paper/aea5e8a0d5ad2f7d5f71f072b9c2a761fc1822bd) • [code](https://github.com/marmotlab/S2AN) |
 | Synthesizing priority planning formulae for multi-agent pathfinding | AIIDE | 2023 | [paper](https://www.semanticscholar.org/paper/3c80978256dacf8cbde8cdf56bda8b4fc367c406) |
@@ -84,7 +84,7 @@ A living survey tracking Machine Learning approaches to solving the MAPF Problem
 #### Enhancing other MAPF solvers 
 
 | Paper | Venue | Year | Links |
-|-------|-------|------|:--:|
+|:------|:------|:-----|:-----|
 | Graph Attention-Guided Search for Dense Multi-Agent Pathfinding | AAAI | 2026 | [paper](https://www.semanticscholar.org/paper/eb28f3f33315c59f9fe832b7e04fb3f67569ff66) • [code](https://github.com/proroklab/lagat) |
 | GRAND: Guidance, Rebalancing, and Assignment for Networked Dispatch in Multi-Agent Path Finding | RAL | 2026 | [paper](https://www.semanticscholar.org/paper/41edd1e66fcade55e5f13d9d98fcbb59bfde2aa9) |
 | Truncated Counterfactual Learning for Anytime Multi-Agent Path Finding | AAAI | 2026 | [paper](https://www.semanticscholar.org/paper/167cf3c51cd3aefef86a1868b684acd24b4f7a6c) • [code](https://github.com/thomyphan/counterfactual-mapf-lns) • [video](https://underline.io/lecture/143208-truncated-counterfactual-learning-for-anytime-multi-agent-path-finding) |
@@ -104,7 +104,7 @@ A living survey tracking Machine Learning approaches to solving the MAPF Problem
 #### Decentralized
 
 | Paper | Venue | Year | Links |
-|-------|-------|------|:--:|
+|:------|:------|:-----|:-----|
 | Confidence-Based Curricula for Multi-Agent Path Finding via Reinforcement Learning | JAAMAS | 2026 | [paper](https://www.semanticscholar.org/paper/5bf27103f43076eb4d93f32006439185e8345ba1) • [code](https://github.com/thomyphan/rl4mapf) |
 | Multi-Agent Reinforcement Learning With Spatial Structure Awareness for Topological Map-Based Path-Finding | RAL | 2026 | [paper](https://www.semanticscholar.org/paper/5416c828bd27bec4bfc4d735e58911b554e1ebc0) |
 | ORION: Option-Regularized Deep Reinforcement Learning for Cooperative Multi-Agent Online Navigation | RAL | 2026 | [paper](https://www.semanticscholar.org/paper/cc5afa346e0ee7b4ac6b6c1e5aca17682a0cf5e7) • [code](https://github.com/marmotlab/ORION) |
@@ -154,7 +154,7 @@ A living survey tracking Machine Learning approaches to solving the MAPF Problem
 #### Centralized
 
 | Paper | Venue | Year | Links |
-|-------|-------|------|:--:|
+|:------|:------|:-----|:-----|
 | Discrete-Guided Diffusion for Scalable and Safe Multi-Robot Motion Planning | AAAI | 2026 | [paper](https://www.semanticscholar.org/paper/b0745bce4125a3907d6cb868ddf500bc839e4f1d) |
 | Multi-Robot Motion Planning from Vision and Language using Heat-Inspired Diffusion | RAL | 2026 | [paper](https://www.semanticscholar.org/paper/8fbe44cf67faecf3de130b88e35f65395672f7bd) • [code](https://github.com/jebeom/LHD) • [project](https://jebeom.github.io/lhd_project_page/) |
 | Train-Small Deploy-Large: Leveraging Diffusion-Based Multi-Robot Planning | arXiv | 2026 | [paper](https://www.semanticscholar.org/paper/ab2bda189c1f482218be09bc13cdada7563a6d16) |
@@ -170,7 +170,7 @@ A living survey tracking Machine Learning approaches to solving the MAPF Problem
 ### Travel and Action Time Modeling - OQ 13
 
 | Paper | Venue | Year | Links |
-|-------|-------|------|:--:|
+|:------|:------|:-----|:-----|
 | Conflict Mitigation in Shared Environments using Flow-Aware Multi-Agent Path Finding | ICRA | 2026 | [paper](https://www.semanticscholar.org/paper/9b7a98bdb1a984ac9d7268b444fd132c463ad581) |
 | From Discrete Plans to Real-World Execution: A World-Model-Driven Framework for Execution-Aware Multi-Agent Path Finding | arXiv | 2025 | [paper](https://www.semanticscholar.org/paper/5f1e7cfab019d65d22cc034c69368888a1584533) |
 | Traffic Flow Learning Enhanced Large-Scale Multi-Robot Cooperative Path Planning Under Uncertainties | ICRA | 2024 | [paper](https://www.semanticscholar.org/paper/a7e45785e69d90e89b471656c906daa58645f659) |
@@ -181,14 +181,14 @@ A living survey tracking Machine Learning approaches to solving the MAPF Problem
 ### Failure Prediction - OQ 14
 
 | Paper | Venue | Year | Links |
-|-------|-------|------|:--:|
+|:------|:------|:-----|:-----|
 | Should I Replan? Learning to Spot the Right Time in Robust MAPF Execution | arXiv | 2026 | [paper](https://www.semanticscholar.org/paper/0ac7749773b75f56a5e4431045c861ff5030bb16) |
 
 
 ## Simulation Environments and Testbeds
 
 | Paper | Venue | Year | Links |
-|-------|-------|------|:--:|
+|:------|:------|:-----|:-----|
 | CAMAR: Continuous Actions Multi-Agent Routing | AAAI | 2026 | [paper](https://www.semanticscholar.org/paper/6ba0f2b4907d14f22ea0254c2f132d84ca2c1343) • [code](https://github.com/AIRI-Institute/CAMAR) • [poster](https://underline.io/lecture/142805-camar-continuous-actions-multi-agent-routing) |
 | Advancing MAPF Toward the Real World: A Scalable Multi-Agent Realistic Testbed (SMART) | RA-L | 2026 | [paper](https://www.semanticscholar.org/paper/692d6732de52593367ff3bc6405933fe8eff23c2) • [code](https://github.com/smart-mapf/smart) • [project](https://smart-mapf.github.io/demo/) |
 | POGEMA: A Benchmark Platform for Cooperative Multi-Agent Pathfinding | ICLR | 2025 | [paper](https://www.semanticscholar.org/paper/929d78fc8eeb50780fa4bd0180d32f5f2e6b2ca8) • [code](https://github.com/Cognitive-AI-Systems/pogema) |
@@ -203,13 +203,13 @@ A living survey tracking Machine Learning approaches to solving the MAPF Problem
 ## Interpretable ML for MAPF
 
 | Paper | Venue | Year | Links |
-|-------|-------|------|:--:|
+|:------|:------|:-----|:-----|
 | Interpretable Multi-Agent Path Finding via Decision Tree Extraction from Neural Policies | AAAI Workshop | 2026 | [paper](https://openreview.net/forum?id=iuXcr6CkDA) • [video](https://doi.org/10.48448/escr-ch42) |
 
 ## Surveys & Benchmarks
 
 | Paper | Venue | Year | Links |
-|-------|-------|------|:--:|
+|:------|:------|:-----|:-----|
 | Reevaluation of Large Neighborhood Search for MAPF: Findings and Opportunities | SoCS | 2025 | [paper](https://www.semanticscholar.org/paper/d3089daf01c695403b82ceae7a3b0353277b212b) • [code](https://github.com/ChristinaTan0704/mapf-lns-unified) |
 | An empirical evaluation of learning-based multi-agent path finding algorithms in warehouse environments | Robotics and Autonomous Systems | 2025 | [paper](https://www.semanticscholar.org/paper/7c79c7a7865a9ff2af1f2c1ed4d85bd7b255b625) |
 | Where Paths Collide: A Comprehensive Survey of Classic and Learning-Based Multi-Agent Pathfinding | arXiv | 2025 | [paper](https://www.semanticscholar.org/paper/e48cca77bea5ee651ed3e6af7c68995e99da25bf) |
